@@ -1,3 +1,5 @@
+<p align="center"><img src="src/main/resources/assets/copperpack/icon.png" width="128" alt="icon"></p>
+
 # Copper Pack
 
 All seven copper mods in one jar, for Minecraft **26.3** (Fabric). Requires Fabric API.
