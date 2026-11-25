@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "copperpack",
+	"version": "${version}",
+	"name": "Copper Pack",
+	"description": "All the copper mods in one jar: Copper Bucket, Shears, Furnace, Hopper, Anvil, Fishing Rod and Flint and Steel.",
+	"authors": [
+		"Uipg9"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/copperpack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-client-gametest": [
+			"dev.brian.copperpack.client.CopperpackClientGameTest"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"copperbucket": "*",
+		"coppershears": "*",
+		"copperfurnace": "*",
+		"copperhopper": "*",
+		"copperanvil": "*",
+		"copperfishingrod": "*",
+		"copperflintandsteel": "*"
+	}
+}
